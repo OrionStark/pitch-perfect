@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordingViewController.swift
 //  Pitch Perfect
 //
 //  Created by macbook-rhla on 28/09/18.
@@ -19,6 +19,7 @@ class RecordingViewController: UIViewController, AVAudioRecorderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        recordButton.imageView?.contentMode = .scaleAspectFit
         stopRecordButton.isEnabled = false
     }
 
